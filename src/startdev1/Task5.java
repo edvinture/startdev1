@@ -16,8 +16,7 @@ public class Task5 {
         
         
         int[][] a=new int[20][10];
-        for (int[] a1 : a) {
-            
+        for (int[] a1 : a) {   
             for (int j = 0; j < a1.length; j++) {
             a1[j] = (int)(Math.random()*10);
             }

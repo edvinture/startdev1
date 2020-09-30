@@ -15,7 +15,7 @@ public class Task5 {
         System.out.println("Создаем ДВУХМЕРНЫЙ массив  из 10х5 ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");        
         
         
-        int[][] a=new int[20][10];
+        int[][] a=new int[10][5];
         for (int[] a1 : a) {   
             for (int j = 0; j < a1.length; j++) {
             a1[j] = (int)(Math.random()*10);
